@@ -36,20 +36,20 @@ function dibujarTeclado(evento)
      break;
 
   case teclas.RIGHT:
-  dibujarLinea(colorcito, x, y, x + movimiento, y, papel);
-  x = x + movimiento;
+     dibujarLinea(colorcito, x, y, x + movimiento, y, papel);
+     x = x + movimiento;
      break;
 
   case teclas.UP:
-  dibujarLinea(colorcito, x, y, x, y - movimiento, papel);
-  y = y - movimiento;
-    break;
+     dibujarLinea(colorcito, x, y, x, y - movimiento, papel);
+     y = y - movimiento;
+     break;
 
   case teclas.DOWN:
-  dibujarLinea(colorcito, x, y, x, y + movimiento, papel);
-  y = y + movimiento;
-    break;
-    default:
+     dibujarLinea(colorcito, x, y, x, y + movimiento, papel);
+     y = y + movimiento;
+     break;
+     default:
 
 }
 }
